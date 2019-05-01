@@ -23,4 +23,4 @@ const login = require('./routes/login'); // *****//
 app.use('/login', login);
 
 const user = require('./routes/user'); // *****//
-app.use('/user', login);
+app.use('/user', user);
