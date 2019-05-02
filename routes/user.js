@@ -10,7 +10,7 @@ router.get("/", (req, res) => {
 
 router.get('/list/:pageNumber', (req, res) => {
     const pageNumber = req.params.pageNumber;
-    let itemPerPage = 11;
+    let itemPerPage = 5;
     MongoClient.connect(
         "mongodb+srv://weerayut:22374736@cluster0-4wunc.gcp.mongodb.net/newDatabase62?retryWrites=true", {
             useNewUrlParser: true
