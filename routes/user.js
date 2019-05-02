@@ -33,7 +33,6 @@ router.get('/list/:pageNumber', (req, res) => {
                         last_name: 1,
                         unit_name: 1,
                         username: 1
-
                     }
                 })
                 .sort({
